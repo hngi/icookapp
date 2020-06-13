@@ -151,6 +151,14 @@
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+  .background-image {
+    background: url(../img/bg/img-background.png) left left/cover no-repeat;
+    position: relative;
+  }
+  h2 {
+    text-align: center;
+    font-size: 18px;
+  }
   .feature-item .icon::before,
   .feature-item::before,
   .feature-item::after {
@@ -202,6 +210,7 @@
     padding-top: 137px;
     padding-bottom: 66px;
   }
+
   .about-area,
   .screen-slider-area,
   .download-area,
@@ -326,7 +335,7 @@
 		Home One
 	-----------------------*/
   .slider-content h2 {
-    font-size: 22px;
+    font-size: 36px;
     line-height: 35px;
   }
   .slider-content p {
@@ -335,8 +344,8 @@
   .slider-area {
     height: auto;
     min-height: 100vh;
-    padding-top: 137px;
-    padding-bottom: 66px;
+    padding-top: 100px;
+    padding-bottom: 40px;
   }
   .raindrops-canvas {
     padding-bottom: 146px;
